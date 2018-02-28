@@ -1,0 +1,3 @@
+soultana_homepage:
+    path:     /
+    defaults: { _controller: SoultanaBundle:Default:index }

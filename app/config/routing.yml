@@ -1,3 +1,4 @@
-app:
-    resource: '@AppBundle/Controller/'
-    type: annotation
+soultana:
+    resource: "@SoultanaBundle/Resources/config/routing.yml"
+    prefix:   /soultana
+

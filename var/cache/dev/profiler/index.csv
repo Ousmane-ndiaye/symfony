@@ -1,0 +1,5 @@
+480108,::1,GET,http://localhost/soultana.sn/web/app_dev.php/,1519806954,,200
+ccf795,::1,GET,http://localhost/soultana.sn/web/app_dev.php/soultana/reservation/,1519808283,ba4018,200
+ba4018,::1,GET,http://localhost/soultana.sn/web/app_dev.php/soultana/reservation/,1519808283,,404
+99c990,::1,GET,http://localhost/soultana.sn/web/app_dev.php/soultana,1519808286,,301
+821175,::1,GET,http://localhost/soultana.sn/web/app_dev.php/soultana/,1519808286,,200

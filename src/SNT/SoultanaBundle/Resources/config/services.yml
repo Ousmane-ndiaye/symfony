@@ -1,0 +1,4 @@
+services:
+#    soultana.example:
+#        class: SNT\SoultanaBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
