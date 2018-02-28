@@ -3,3 +3,7 @@ ccf795,::1,GET,http://localhost/soultana.sn/web/app_dev.php/soultana/reservation
 ba4018,::1,GET,http://localhost/soultana.sn/web/app_dev.php/soultana/reservation/,1519808283,,404
 99c990,::1,GET,http://localhost/soultana.sn/web/app_dev.php/soultana,1519808286,,301
 821175,::1,GET,http://localhost/soultana.sn/web/app_dev.php/soultana/,1519808286,,200
+914dfa,::1,GET,http://localhost/soultana.sn/web/app_dev.php/soultana/,1519809113,2c8632,200
+2c8632,::1,GET,http://localhost/soultana.sn/web/app_dev.php/soultana/,1519809113,,500
+79284e,::1,GET,http://localhost/soultana.sn/web/app_dev.php/soultana/,1519809133,,200
+3c7b77,::1,GET,http://localhost/soultana.sn/web/app_dev.php/soultana/,1519809164,,200

@@ -119,7 +119,7 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
                 return $this->redirect($pathinfo.'/', 'soultana_homepage');
             }
 
-            return array (  '_controller' => 'SNT\\SoultanaBundle\\Controller\\DefaultController::indexAction',  '_route' => 'soultana_homepage',);
+            return array (  '_controller' => 'SNT\\SoultanaBundle\\Controller\\ReservationController::indexAction',  '_route' => 'soultana_homepage',);
         }
 
         throw 0 < count($allow) ? new MethodNotAllowedException(array_unique($allow)) : new ResourceNotFoundException();
