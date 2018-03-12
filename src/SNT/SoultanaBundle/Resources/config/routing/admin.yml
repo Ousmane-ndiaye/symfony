@@ -1,0 +1,12 @@
+admin_login:
+  path:     /
+  defaults: { _controller: SoultanaBundle:Admin:login }
+
+admin_index:
+  path:     /index
+  defaults: { _controller: SoultanaBundle:Admin:index }
+
+admin_bien:
+  path:     /bien/{action}
+  defaults: { _controller: SoultanaBundle:Admin:bien }
+  methods:  [GET, POST]

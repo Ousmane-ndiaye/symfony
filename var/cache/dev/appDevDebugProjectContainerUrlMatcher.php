@@ -113,13 +113,53 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
         }
 
-        // soultana_homepage
-        if ('/soultana' === $trimmedPathinfo) {
-            if (substr($pathinfo, -1) !== '/') {
-                return $this->redirect($pathinfo.'/', 'soultana_homepage');
+        elseif (0 === strpos($pathinfo, '/soultana')) {
+            // soultana_homepage
+            if ('/soultana' === $trimmedPathinfo) {
+                if (substr($pathinfo, -1) !== '/') {
+                    return $this->redirect($pathinfo.'/', 'soultana_homepage');
+                }
+
+                return array (  '_controller' => 'SNT\\SoultanaBundle\\Controller\\ReservationController::indexAction',  '_route' => 'soultana_homepage',);
             }
 
-            return array (  '_controller' => 'SNT\\SoultanaBundle\\Controller\\ReservationController::indexAction',  '_route' => 'soultana_homepage',);
+            // reservation_index
+            if ('/soultana/reservation' === $trimmedPathinfo) {
+                if (substr($pathinfo, -1) !== '/') {
+                    return $this->redirect($pathinfo.'/', 'reservation_index');
+                }
+
+                return array (  '_controller' => 'SNT\\SoultanaBundle\\Controller\\ReservationController::indexAction',  '_route' => 'reservation_index',);
+            }
+
+            if (0 === strpos($pathinfo, '/soultana/admin')) {
+                // admin_login
+                if ('/soultana/admin' === $trimmedPathinfo) {
+                    if (substr($pathinfo, -1) !== '/') {
+                        return $this->redirect($pathinfo.'/', 'admin_login');
+                    }
+
+                    return array (  '_controller' => 'SNT\\SoultanaBundle\\Controller\\AdminController::loginAction',  '_route' => 'admin_login',);
+                }
+
+                // admin_index
+                if ('/soultana/admin/index' === $pathinfo) {
+                    return array (  '_controller' => 'SNT\\SoultanaBundle\\Controller\\AdminController::indexAction',  '_route' => 'admin_index',);
+                }
+
+                // admin_bien
+                if (0 === strpos($pathinfo, '/soultana/admin/bien') && preg_match('#^/soultana/admin/bien/(?P<action>[^/]++)$#s', $pathinfo, $matches)) {
+                    if (!in_array($canonicalMethod, array('GET', 'POST'))) {
+                        $allow = array_merge($allow, array('GET', 'POST'));
+                        goto not_admin_bien;
+                    }
+
+                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'admin_bien')), array (  '_controller' => 'SNT\\SoultanaBundle\\Controller\\AdminController::bienAction',));
+                }
+                not_admin_bien:
+
+            }
+
         }
 
         throw 0 < count($allow) ? new MethodNotAllowedException(array_unique($allow)) : new ResourceNotFoundException();

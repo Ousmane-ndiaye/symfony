@@ -1,3 +1,13 @@
 soultana_homepage:
     path:     /
     defaults: { _controller: SoultanaBundle:Reservation:index }
+
+
+soultana_reservation:
+    resource: "@SoultanaBundle/Resources/config/routing/reservation.yml"
+    prefix:   /reservation
+
+
+soultana_admin:
+    resource: "@SoultanaBundle/Resources/config/routing/admin.yml"
+    prefix:   /admin
