@@ -44,10 +44,6 @@ $(document).ready(function() {
                                 $("#for-saving").val("");
                                 $("#formAjout").addClass("hidden");
                                 $("#button-ajouter").removeClass("disabled");
-                                clickSurEdit();
-                                clickSurRemove();
-                                clickSurSave();
-                                clickSurCancel();
                                 return false;
                             }
                         });
@@ -66,20 +62,12 @@ $(document).ready(function() {
                                 $("#" + $(this).data("idtr") + " td a.on-default").each(function() {
                                     $(this).removeClass("hidden");
                                 });
-                                clickSurEdit();
-                                clickSurRemove();
-                                clickSurSave();
-                                clickSurCancel();
                                 return false;
                             } else {
                                 $("#for-saving").val("");
                                 $("#for-saving").removeClass("border-red");
                                 $("#formAjout").addClass("hidden");
                                 $("#button-ajouter").removeClass("disabled");
-                                clickSurEdit();
-                                clickSurRemove();
-                                clickSurSave();
-                                clickSurCancel();
                                 return false;
                             }
                             return false;
@@ -96,7 +84,7 @@ $(document).ready(function() {
                             console.log('------------------------------------');
                             console.log(valueTd);
                             console.log('------------------------------------');
-                            $("#" + $(this).data("idtr") + " td.form-edit").append('<form method="post" action="#"> <input style="width: 100%;" type="text" name="for-editing" id="for-editing" data-exval="' + valueTd + '" data-champs="editnomville" value="' +valueTd + '" /></form>');
+                            $("#" + $(this).data("idtr") + " td.form-edit").append('<form method="post" action="#"> <input style="width: 100%;" type="text" name="for-editing" id="for-editing" data-exval="' + valueTd + '" data-champs="editnomville" value="' + valueTd + '" /></form>');
                             $("#" + $(this).data("idtr") + " td.form-edit").removeAttr('id');
                             $("#" + $(this).data("idtr") + " td a.on-editing").each(function() {
                                 $(this).removeClass("hidden");
@@ -104,8 +92,6 @@ $(document).ready(function() {
                             $("#" + $(this).data("idtr") + " td a.on-default").each(function() {
                                 $(this).addClass("hidden");
                             });
-                            clickSurSave();
-                            clickSurCancel();
                             return false;
                         });
                     });
@@ -115,28 +101,22 @@ $(document).ready(function() {
                     $("a.remove-row").each(function() {
                         $(this).on("click", function() {
                             $("#" + $(this).data("idtr")).remove();
-                            clickSurEdit();
-                            clickSurRemove();
-                            clickSurSave();
-                            clickSurCancel();
                             return false;
                         });
                     });
                 }
 
+                $("#button-ajouter").on("click", function() {
+                    $("#formAjout").removeClass("hidden");
+                    $(this).addClass("disabled");
+                    clickSurSave();
+                    clickSurCancel();
+                });
+
                 clickSurEdit();
                 clickSurRemove();
                 clickSurSave();
                 clickSurCancel();
-
-                $("#button-ajouter").on("click", function() {
-                    $("#formAjout").removeClass("hidden");
-                    $(this).addClass("disabled");
-                    clickSurEdit();
-                    clickSurRemove();
-                    clickSurSave();
-                    clickSurCancel();
-                });
             });
             return false;
         })
