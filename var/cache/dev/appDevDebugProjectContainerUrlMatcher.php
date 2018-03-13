@@ -158,6 +158,17 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
                 }
                 not_admin_bien:
 
+                // requete_ajax
+                if ('/soultana/admin/requete_ajax' === $pathinfo) {
+                    if (!in_array($canonicalMethod, array('GET', 'POST'))) {
+                        $allow = array_merge($allow, array('GET', 'POST'));
+                        goto not_requete_ajax;
+                    }
+
+                    return array (  '_controller' => 'SNT\\SoultanaBundle\\Controller\\AdminController::requete_ajaxAction',  '_route' => 'requete_ajax',);
+                }
+                not_requete_ajax:
+
             }
 
         }

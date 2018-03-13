@@ -10,3 +10,8 @@ admin_bien:
   path:     /bien/{action}
   defaults: { _controller: SoultanaBundle:Admin:bien }
   methods:  [GET, POST]
+
+requete_ajax:
+  path:     /requete_ajax
+  defaults: { _controller: SoultanaBundle:Admin:requete_ajax }
+  methods:  [GET, POST]

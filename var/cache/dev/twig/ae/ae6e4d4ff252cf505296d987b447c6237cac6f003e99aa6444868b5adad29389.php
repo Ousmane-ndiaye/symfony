@@ -26,66 +26,66 @@ class __TwigTemplate_602d0beac7a133a59466a5a30a2f6a7576c7ed0ab80ee5ea7c0a1c8ec5f
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_65bc1973321cddd89cc6479950a60a016def7dfdd3ce3b6747bd22e250f9a885 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_65bc1973321cddd89cc6479950a60a016def7dfdd3ce3b6747bd22e250f9a885->enter($__internal_65bc1973321cddd89cc6479950a60a016def7dfdd3ce3b6747bd22e250f9a885_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SoultanaBundle:Admin:bien.html.twig"));
+        $__internal_e3375de383463b3e29e6448f07bce3e5396b0a0e0798a702a258c6f79bf909f3 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_e3375de383463b3e29e6448f07bce3e5396b0a0e0798a702a258c6f79bf909f3->enter($__internal_e3375de383463b3e29e6448f07bce3e5396b0a0e0798a702a258c6f79bf909f3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SoultanaBundle:Admin:bien.html.twig"));
 
-        $__internal_ea37a83886a38f26faae0d582958d93b64a0be2be4422b45f686670f773e96c6 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_ea37a83886a38f26faae0d582958d93b64a0be2be4422b45f686670f773e96c6->enter($__internal_ea37a83886a38f26faae0d582958d93b64a0be2be4422b45f686670f773e96c6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SoultanaBundle:Admin:bien.html.twig"));
+        $__internal_d475fbd0c383844a262107085d7466d80c8238bb0887169ef3370a331335edc2 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_d475fbd0c383844a262107085d7466d80c8238bb0887169ef3370a331335edc2->enter($__internal_d475fbd0c383844a262107085d7466d80c8238bb0887169ef3370a331335edc2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SoultanaBundle:Admin:bien.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_65bc1973321cddd89cc6479950a60a016def7dfdd3ce3b6747bd22e250f9a885->leave($__internal_65bc1973321cddd89cc6479950a60a016def7dfdd3ce3b6747bd22e250f9a885_prof);
+        $__internal_e3375de383463b3e29e6448f07bce3e5396b0a0e0798a702a258c6f79bf909f3->leave($__internal_e3375de383463b3e29e6448f07bce3e5396b0a0e0798a702a258c6f79bf909f3_prof);
 
         
-        $__internal_ea37a83886a38f26faae0d582958d93b64a0be2be4422b45f686670f773e96c6->leave($__internal_ea37a83886a38f26faae0d582958d93b64a0be2be4422b45f686670f773e96c6_prof);
+        $__internal_d475fbd0c383844a262107085d7466d80c8238bb0887169ef3370a331335edc2->leave($__internal_d475fbd0c383844a262107085d7466d80c8238bb0887169ef3370a331335edc2_prof);
 
     }
 
     // line 3
     public function block_title($context, array $blocks = array())
     {
-        $__internal_03ef0845967a8a7ad1278e96ea58c0ce35c9ad080a34d0b86bc6b45d5c1f2953 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_03ef0845967a8a7ad1278e96ea58c0ce35c9ad080a34d0b86bc6b45d5c1f2953->enter($__internal_03ef0845967a8a7ad1278e96ea58c0ce35c9ad080a34d0b86bc6b45d5c1f2953_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_16b1fdb0c53cbed97a951de353168a84717aba19aa77385fa9fa68bfa004530e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_16b1fdb0c53cbed97a951de353168a84717aba19aa77385fa9fa68bfa004530e->enter($__internal_16b1fdb0c53cbed97a951de353168a84717aba19aa77385fa9fa68bfa004530e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
-        $__internal_a9564f065ee9c8b62782e09e41ceedb0d92aae484ad4d9afb33949c6986e21f8 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_a9564f065ee9c8b62782e09e41ceedb0d92aae484ad4d9afb33949c6986e21f8->enter($__internal_a9564f065ee9c8b62782e09e41ceedb0d92aae484ad4d9afb33949c6986e21f8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_86e51d5c3f1b3920cb411884fd58446bbc364c2fa1671d78b99aa08f978ce313 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_86e51d5c3f1b3920cb411884fd58446bbc364c2fa1671d78b99aa08f978ce313->enter($__internal_86e51d5c3f1b3920cb411884fd58446bbc364c2fa1671d78b99aa08f978ce313_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         echo "Admin";
         
-        $__internal_a9564f065ee9c8b62782e09e41ceedb0d92aae484ad4d9afb33949c6986e21f8->leave($__internal_a9564f065ee9c8b62782e09e41ceedb0d92aae484ad4d9afb33949c6986e21f8_prof);
+        $__internal_86e51d5c3f1b3920cb411884fd58446bbc364c2fa1671d78b99aa08f978ce313->leave($__internal_86e51d5c3f1b3920cb411884fd58446bbc364c2fa1671d78b99aa08f978ce313_prof);
 
         
-        $__internal_03ef0845967a8a7ad1278e96ea58c0ce35c9ad080a34d0b86bc6b45d5c1f2953->leave($__internal_03ef0845967a8a7ad1278e96ea58c0ce35c9ad080a34d0b86bc6b45d5c1f2953_prof);
+        $__internal_16b1fdb0c53cbed97a951de353168a84717aba19aa77385fa9fa68bfa004530e->leave($__internal_16b1fdb0c53cbed97a951de353168a84717aba19aa77385fa9fa68bfa004530e_prof);
 
     }
 
     // line 4
     public function block_titre_page($context, array $blocks = array())
     {
-        $__internal_61d816bc21d07aaffa6bb9c6a7d898211fc76995ecfbcd3e2f59c9566d51a537 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_61d816bc21d07aaffa6bb9c6a7d898211fc76995ecfbcd3e2f59c9566d51a537->enter($__internal_61d816bc21d07aaffa6bb9c6a7d898211fc76995ecfbcd3e2f59c9566d51a537_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titre_page"));
+        $__internal_47f17992f19f55689a825cbd5810154dc5ed6907a4a33f233a590b7331d9ec73 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_47f17992f19f55689a825cbd5810154dc5ed6907a4a33f233a590b7331d9ec73->enter($__internal_47f17992f19f55689a825cbd5810154dc5ed6907a4a33f233a590b7331d9ec73_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titre_page"));
 
-        $__internal_fc53ec84d9561ef813229f61c0209a2d3bfb6f20471bb161cce400da41cef3f0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_fc53ec84d9561ef813229f61c0209a2d3bfb6f20471bb161cce400da41cef3f0->enter($__internal_fc53ec84d9561ef813229f61c0209a2d3bfb6f20471bb161cce400da41cef3f0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titre_page"));
+        $__internal_a2b617c978754b7c2afc5a06c94030026daebabc5a8c0ca7a21838fe33a4d60a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_a2b617c978754b7c2afc5a06c94030026daebabc5a8c0ca7a21838fe33a4d60a->enter($__internal_a2b617c978754b7c2afc5a06c94030026daebabc5a8c0ca7a21838fe33a4d60a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "titre_page"));
 
         echo "Page ";
         echo twig_escape_filter($this->env, ($context["action"] ?? $this->getContext($context, "action")), "html", null, true);
         
-        $__internal_fc53ec84d9561ef813229f61c0209a2d3bfb6f20471bb161cce400da41cef3f0->leave($__internal_fc53ec84d9561ef813229f61c0209a2d3bfb6f20471bb161cce400da41cef3f0_prof);
+        $__internal_a2b617c978754b7c2afc5a06c94030026daebabc5a8c0ca7a21838fe33a4d60a->leave($__internal_a2b617c978754b7c2afc5a06c94030026daebabc5a8c0ca7a21838fe33a4d60a_prof);
 
         
-        $__internal_61d816bc21d07aaffa6bb9c6a7d898211fc76995ecfbcd3e2f59c9566d51a537->leave($__internal_61d816bc21d07aaffa6bb9c6a7d898211fc76995ecfbcd3e2f59c9566d51a537_prof);
+        $__internal_47f17992f19f55689a825cbd5810154dc5ed6907a4a33f233a590b7331d9ec73->leave($__internal_47f17992f19f55689a825cbd5810154dc5ed6907a4a33f233a590b7331d9ec73_prof);
 
     }
 
     // line 5
     public function block_file_dariane($context, array $blocks = array())
     {
-        $__internal_58f4788762cd837f6d9b25b00a83e4b19eb5d78d51626549c479e2ee99a964de = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_58f4788762cd837f6d9b25b00a83e4b19eb5d78d51626549c479e2ee99a964de->enter($__internal_58f4788762cd837f6d9b25b00a83e4b19eb5d78d51626549c479e2ee99a964de_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "file_dariane"));
+        $__internal_6712ca0f8370472dc8369ac94d80164f21142ca4f96a9ba44c1370b5a9bdc413 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_6712ca0f8370472dc8369ac94d80164f21142ca4f96a9ba44c1370b5a9bdc413->enter($__internal_6712ca0f8370472dc8369ac94d80164f21142ca4f96a9ba44c1370b5a9bdc413_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "file_dariane"));
 
-        $__internal_2da3de02434dd0105377ee31ac816ad86ede413c4f902e93c337ccf025d619d2 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_2da3de02434dd0105377ee31ac816ad86ede413c4f902e93c337ccf025d619d2->enter($__internal_2da3de02434dd0105377ee31ac816ad86ede413c4f902e93c337ccf025d619d2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "file_dariane"));
+        $__internal_e97d615600019410a3d3ce1a7959bb044a3d6649b10860b5193c6fe56cdb39dd = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_e97d615600019410a3d3ce1a7959bb044a3d6649b10860b5193c6fe56cdb39dd->enter($__internal_e97d615600019410a3d3ce1a7959bb044a3d6649b10860b5193c6fe56cdb39dd_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "file_dariane"));
 
         // line 6
         echo "<li><a href=\"";
@@ -101,21 +101,21 @@ class __TwigTemplate_602d0beac7a133a59466a5a30a2f6a7576c7ed0ab80ee5ea7c0a1c8ec5f
         echo "</li>
 ";
         
-        $__internal_2da3de02434dd0105377ee31ac816ad86ede413c4f902e93c337ccf025d619d2->leave($__internal_2da3de02434dd0105377ee31ac816ad86ede413c4f902e93c337ccf025d619d2_prof);
+        $__internal_e97d615600019410a3d3ce1a7959bb044a3d6649b10860b5193c6fe56cdb39dd->leave($__internal_e97d615600019410a3d3ce1a7959bb044a3d6649b10860b5193c6fe56cdb39dd_prof);
 
         
-        $__internal_58f4788762cd837f6d9b25b00a83e4b19eb5d78d51626549c479e2ee99a964de->leave($__internal_58f4788762cd837f6d9b25b00a83e4b19eb5d78d51626549c479e2ee99a964de_prof);
+        $__internal_6712ca0f8370472dc8369ac94d80164f21142ca4f96a9ba44c1370b5a9bdc413->leave($__internal_6712ca0f8370472dc8369ac94d80164f21142ca4f96a9ba44c1370b5a9bdc413_prof);
 
     }
 
     // line 10
     public function block_stylesheets($context, array $blocks = array())
     {
-        $__internal_a5577d23df18f790517113748f8ba5563bcfc852194aab9e3b1be69d42ab7b89 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_a5577d23df18f790517113748f8ba5563bcfc852194aab9e3b1be69d42ab7b89->enter($__internal_a5577d23df18f790517113748f8ba5563bcfc852194aab9e3b1be69d42ab7b89_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_1e8bcdff8323432bb0086fa51b87979b8d91ba1e3793068586868f8b6381c60a = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_1e8bcdff8323432bb0086fa51b87979b8d91ba1e3793068586868f8b6381c60a->enter($__internal_1e8bcdff8323432bb0086fa51b87979b8d91ba1e3793068586868f8b6381c60a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
-        $__internal_37573ecb134e1349f179f389a42752e0c5d8ec1a6221346cc9b6788dbfbe24e6 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_37573ecb134e1349f179f389a42752e0c5d8ec1a6221346cc9b6788dbfbe24e6->enter($__internal_37573ecb134e1349f179f389a42752e0c5d8ec1a6221346cc9b6788dbfbe24e6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_a2d459e4e19b23158c9d10a7df03ad2632a74455a8662608b4f4824624f93dc0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_a2d459e4e19b23158c9d10a7df03ad2632a74455a8662608b4f4824624f93dc0->enter($__internal_a2d459e4e19b23158c9d10a7df03ad2632a74455a8662608b4f4824624f93dc0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
         // line 11
         echo "    <!-- DataTables -->
@@ -146,21 +146,21 @@ class __TwigTemplate_602d0beac7a133a59466a5a30a2f6a7576c7ed0ab80ee5ea7c0a1c8ec5f
     </style>
 ";
         
-        $__internal_37573ecb134e1349f179f389a42752e0c5d8ec1a6221346cc9b6788dbfbe24e6->leave($__internal_37573ecb134e1349f179f389a42752e0c5d8ec1a6221346cc9b6788dbfbe24e6_prof);
+        $__internal_a2d459e4e19b23158c9d10a7df03ad2632a74455a8662608b4f4824624f93dc0->leave($__internal_a2d459e4e19b23158c9d10a7df03ad2632a74455a8662608b4f4824624f93dc0_prof);
 
         
-        $__internal_a5577d23df18f790517113748f8ba5563bcfc852194aab9e3b1be69d42ab7b89->leave($__internal_a5577d23df18f790517113748f8ba5563bcfc852194aab9e3b1be69d42ab7b89_prof);
+        $__internal_1e8bcdff8323432bb0086fa51b87979b8d91ba1e3793068586868f8b6381c60a->leave($__internal_1e8bcdff8323432bb0086fa51b87979b8d91ba1e3793068586868f8b6381c60a_prof);
 
     }
 
     // line 23
     public function block_javascripts($context, array $blocks = array())
     {
-        $__internal_895e91817380cb5d0bb17118436f3feb58201706df76fc4aa5c2b2724fb1bfa7 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_895e91817380cb5d0bb17118436f3feb58201706df76fc4aa5c2b2724fb1bfa7->enter($__internal_895e91817380cb5d0bb17118436f3feb58201706df76fc4aa5c2b2724fb1bfa7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
+        $__internal_d8d730241c088ece399f26f5055142ac5d8fe14f7626ed0f30416197bc832427 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_d8d730241c088ece399f26f5055142ac5d8fe14f7626ed0f30416197bc832427->enter($__internal_d8d730241c088ece399f26f5055142ac5d8fe14f7626ed0f30416197bc832427_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
 
-        $__internal_6a3a672b133b804c42e254d564b1d99da398e4167f7b31fbdece4f58f079a0e1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_6a3a672b133b804c42e254d564b1d99da398e4167f7b31fbdece4f58f079a0e1->enter($__internal_6a3a672b133b804c42e254d564b1d99da398e4167f7b31fbdece4f58f079a0e1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
+        $__internal_94302940f67e6be12bfc3fcd7734d2792b8abb07c0205378db387b0e359b3d29 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_94302940f67e6be12bfc3fcd7734d2792b8abb07c0205378db387b0e359b3d29->enter($__internal_94302940f67e6be12bfc3fcd7734d2792b8abb07c0205378db387b0e359b3d29_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
 
         // line 24
         echo "    <!-- Datatables-->
@@ -254,21 +254,21 @@ class __TwigTemplate_602d0beac7a133a59466a5a30a2f6a7576c7ed0ab80ee5ea7c0a1c8ec5f
     </script>
 ";
         
-        $__internal_6a3a672b133b804c42e254d564b1d99da398e4167f7b31fbdece4f58f079a0e1->leave($__internal_6a3a672b133b804c42e254d564b1d99da398e4167f7b31fbdece4f58f079a0e1_prof);
+        $__internal_94302940f67e6be12bfc3fcd7734d2792b8abb07c0205378db387b0e359b3d29->leave($__internal_94302940f67e6be12bfc3fcd7734d2792b8abb07c0205378db387b0e359b3d29_prof);
 
         
-        $__internal_895e91817380cb5d0bb17118436f3feb58201706df76fc4aa5c2b2724fb1bfa7->leave($__internal_895e91817380cb5d0bb17118436f3feb58201706df76fc4aa5c2b2724fb1bfa7_prof);
+        $__internal_d8d730241c088ece399f26f5055142ac5d8fe14f7626ed0f30416197bc832427->leave($__internal_d8d730241c088ece399f26f5055142ac5d8fe14f7626ed0f30416197bc832427_prof);
 
     }
 
     // line 66
     public function block_contenus($context, array $blocks = array())
     {
-        $__internal_22d1702d5199e1e463b90d662a728f89ca785c30377fa37c69a7467e0c28ca6b = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_22d1702d5199e1e463b90d662a728f89ca785c30377fa37c69a7467e0c28ca6b->enter($__internal_22d1702d5199e1e463b90d662a728f89ca785c30377fa37c69a7467e0c28ca6b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "contenus"));
+        $__internal_4a6edc2c7ce97a759f9b34139f2b64669cc74f64f72d7dfb53e8d81101ac7c3a = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_4a6edc2c7ce97a759f9b34139f2b64669cc74f64f72d7dfb53e8d81101ac7c3a->enter($__internal_4a6edc2c7ce97a759f9b34139f2b64669cc74f64f72d7dfb53e8d81101ac7c3a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "contenus"));
 
-        $__internal_4560a9225fa3cbb46a5d5f91364c7e43ad8af114243ac959670c0187b0726a43 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_4560a9225fa3cbb46a5d5f91364c7e43ad8af114243ac959670c0187b0726a43->enter($__internal_4560a9225fa3cbb46a5d5f91364c7e43ad8af114243ac959670c0187b0726a43_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "contenus"));
+        $__internal_d09bde930af4501dde03b38312cfd5e67eb5dbd8b2b614b1bb751ca09326b6af = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_d09bde930af4501dde03b38312cfd5e67eb5dbd8b2b614b1bb751ca09326b6af->enter($__internal_d09bde930af4501dde03b38312cfd5e67eb5dbd8b2b614b1bb751ca09326b6af_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "contenus"));
 
         // line 67
         echo "    <div class=\"row\">
@@ -283,7 +283,7 @@ class __TwigTemplate_602d0beac7a133a59466a5a30a2f6a7576c7ed0ab80ee5ea7c0a1c8ec5f
         <div class=\"col-md-12\">
             <div class=\"panel panel-default\">
                 <div class=\"panel-heading\">
-                    <h3 class=\"panel-title\">Listes des villes</h3>
+                    <h3 class=\"panel-title\">Liste des villes</h3>
                 </div>
                 <div class=\"panel-body\">
                     <div class=\"row\">
@@ -327,41 +327,65 @@ class __TwigTemplate_602d0beac7a133a59466a5a30a2f6a7576c7ed0ab80ee5ea7c0a1c8ec5f
                         ";
             // line 117
             $context['_parent'] = $context;
-            $context['_seq'] = twig_ensure_traversable(array(0 => 1, 1 => 2, 2 => 3, 3 => 4, 4 => 5, 5 => 6, 6 => 7, 7 => 8, 8 => 9, 9 => 10, 10 => 11, 11 => 12, 12 => 13, 13 => 14, 14 => 15, 15 => 16, 16 => 17, 17 => 18, 18 => 19, 19 => 20));
-            foreach ($context['_seq'] as $context["_key"] => $context["i"]) {
+            $context['_seq'] = twig_ensure_traversable(($context["villes"] ?? $this->getContext($context, "villes")));
+            $context['loop'] = array(
+              'parent' => $context['_parent'],
+              'index0' => 0,
+              'index'  => 1,
+              'first'  => true,
+            );
+            if (is_array($context['_seq']) || (is_object($context['_seq']) && $context['_seq'] instanceof Countable)) {
+                $length = count($context['_seq']);
+                $context['loop']['revindex0'] = $length - 1;
+                $context['loop']['revindex'] = $length;
+                $context['loop']['length'] = $length;
+                $context['loop']['last'] = 1 === $length;
+            }
+            foreach ($context['_seq'] as $context["_key"] => $context["ville"]) {
                 // line 118
                 echo "                            <tr id=\"";
-                echo twig_escape_filter($this->env, ("tr_numero_" . $context["i"]), "html", null, true);
+                echo twig_escape_filter($this->env, ("tr_numero_" . $this->getAttribute($context["ville"], "idVille", array())), "html", null, true);
                 echo "\">
                                 <td style=\"text-align: center;\">";
                 // line 119
-                echo twig_escape_filter($this->env, $context["i"], "html", null, true);
+                echo twig_escape_filter($this->env, $this->getAttribute($context["loop"], "index", array()), "html", null, true);
                 echo "</td>
-                                <td class=\"form-edit\">System Architect</td>
+                                <td class=\"form-edit\">";
+                // line 120
+                echo twig_escape_filter($this->env, $this->getAttribute($context["ville"], "nomVille", array()), "html", null, true);
+                echo "</td>
                                 <td>5</td>
                                 <td class=\"\">
                                     <a href=\"#\" style=\"margin-left: 25px;\" data-idtr=\"";
                 // line 123
-                echo twig_escape_filter($this->env, ("tr_numero_" . $context["i"]), "html", null, true);
+                echo twig_escape_filter($this->env, ("tr_numero_" . $this->getAttribute($context["ville"], "idVille", array())), "html", null, true);
                 echo "\" class=\"hidden on-editing save-row\"><i class=\"fa fa-save\"></i></a>
                                     <a href=\"#\" style=\"margin-left: 25px; color: red;\" data-idtr=\"";
                 // line 124
-                echo twig_escape_filter($this->env, ("tr_numero_" . $context["i"]), "html", null, true);
+                echo twig_escape_filter($this->env, ("tr_numero_" . $this->getAttribute($context["ville"], "idVille", array())), "html", null, true);
                 echo "\" class=\"hidden on-editing cancel-row\"><i class=\"fa fa-times\"></i></a>
                                     <a href=\"#\" style=\"margin-left: 25px;\" data-idtr=\"";
                 // line 125
-                echo twig_escape_filter($this->env, ("tr_numero_" . $context["i"]), "html", null, true);
+                echo twig_escape_filter($this->env, ("tr_numero_" . $this->getAttribute($context["ville"], "idVille", array())), "html", null, true);
                 echo "\" class=\"on-default edit-row\"><i class=\"fa fa-pencil\"></i></a>
                                     <a href=\"#\" style=\"margin-left: 25px; color: red;\"data-idtr=\"";
                 // line 126
-                echo twig_escape_filter($this->env, ("tr_numero_" . $context["i"]), "html", null, true);
+                echo twig_escape_filter($this->env, ("tr_numero_" . $this->getAttribute($context["ville"], "idVille", array())), "html", null, true);
                 echo "\" class=\"on-default remove-row\"><i class=\"fa fa-trash-o\"></i></a>
                                 </td>
                             </tr>
                         ";
+                ++$context['loop']['index0'];
+                ++$context['loop']['index'];
+                $context['loop']['first'] = false;
+                if (isset($context['loop']['length'])) {
+                    --$context['loop']['revindex0'];
+                    --$context['loop']['revindex'];
+                    $context['loop']['last'] = 0 === $context['loop']['revindex0'];
+                }
             }
             $_parent = $context['_parent'];
-            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['i'], $context['_parent'], $context['loop']);
+            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['ville'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
             // line 130
             echo "
@@ -383,7 +407,7 @@ class __TwigTemplate_602d0beac7a133a59466a5a30a2f6a7576c7ed0ab80ee5ea7c0a1c8ec5f
         <div class=\"col-md-12\">
             <div class=\"panel panel-default\">
                 <div class=\"panel-heading\">
-                    <h3 class=\"panel-title\">Listes des quartiers</h3>
+                    <h3 class=\"panel-title\">Liste des quartiers</h3>
                 </div>
                 <div class=\"panel-body\">
                     <div class=\"row\">
@@ -401,20 +425,16 @@ class __TwigTemplate_602d0beac7a133a59466a5a30a2f6a7576c7ed0ab80ee5ea7c0a1c8ec5f
                                 <th style=\"width: 200px;\">Nombre de bien</th>
                                 <th style=\"width: 100px;\">Action</th>
                             </tr>
-                        </thead>
-
-
-                        <tbody>
                             <tr id=\"formAjout\" class=\"hidden\">
                                 <form method=\"post\" action=\"#\">
                                     <td>
                                         &nbsp;
                                     </td>
                                     <td>
-                                        <input style=\"width: 100%;\"type=\"text\" name=\"\" id=\"\" placeholder=\"\" />
+                                        <input style=\"width: 100%;\" type=\"text\" name=\"for-saving\" id=\"for-saving\" data-champs=\"nomville\" placeholder=\"nom du ville\" />
                                     </td>
                                     <td>
-                                        &nbsp;<input type=\"submit\" class=\"btn btn-primary hidden\" name=\"enregistrer\" id=\"enregistrer\" value=\"enregistrer\">
+                                        &nbsp;
                                     </td>
                                     <td class=\"\">
                                         <a href=\"#\" style=\"margin-left: 25px;\" class=\"on-editing save-row\"><i class=\"fa fa-save\"></i></a>
@@ -424,17 +444,51 @@ class __TwigTemplate_602d0beac7a133a59466a5a30a2f6a7576c7ed0ab80ee5ea7c0a1c8ec5f
                                     </td>
                                 </form>
                             </tr>
-                            <tr>
-                                <td style=\"text-align: center;\">1</td>
-                                <td>System Architect</td>
+                        </thead>
+
+
+                        <tbody>
+                        ";
+            // line 187
+            $context['_parent'] = $context;
+            $context['_seq'] = twig_ensure_traversable(array(0 => 1, 1 => 2, 2 => 3, 3 => 4, 4 => 5, 5 => 6, 6 => 7, 7 => 8, 8 => 9, 9 => 10, 10 => 11, 11 => 12, 12 => 13, 13 => 14, 14 => 15, 15 => 16, 16 => 17, 17 => 18, 18 => 19, 19 => 20));
+            foreach ($context['_seq'] as $context["_key"] => $context["i"]) {
+                // line 188
+                echo "                            <tr id=\"";
+                echo twig_escape_filter($this->env, ("tr_numero_" . $context["i"]), "html", null, true);
+                echo "\">
+                                <td style=\"text-align: center;\">";
+                // line 189
+                echo twig_escape_filter($this->env, $context["i"], "html", null, true);
+                echo "</td>
+                                <td class=\"form-edit\">System Architect</td>
                                 <td>5</td>
                                 <td class=\"\">
-                                    <a href=\"#\" style=\"margin-left: 25px;\" class=\"hidden on-editing save-row\"><i class=\"fa fa-save\"></i></a>
-                                    <a href=\"#\" style=\"margin-left: 25px; color: red;\" class=\"hidden on-editing cancel-row\"><i class=\"fa fa-times\"></i></a>
-                                    <a href=\"#\" style=\"margin-left: 25px;\" class=\"on-default edit-row\"><i class=\"fa fa-pencil\"></i></a>
-                                    <a href=\"#\" style=\"margin-left: 25px; color: red;\" class=\"on-default remove-row\"><i class=\"fa fa-trash-o\"></i></a>
+                                    <a href=\"#\" style=\"margin-left: 25px;\" data-idtr=\"";
+                // line 193
+                echo twig_escape_filter($this->env, ("tr_numero_" . $context["i"]), "html", null, true);
+                echo "\" class=\"hidden on-editing save-row\"><i class=\"fa fa-save\"></i></a>
+                                    <a href=\"#\" style=\"margin-left: 25px; color: red;\" data-idtr=\"";
+                // line 194
+                echo twig_escape_filter($this->env, ("tr_numero_" . $context["i"]), "html", null, true);
+                echo "\" class=\"hidden on-editing cancel-row\"><i class=\"fa fa-times\"></i></a>
+                                    <a href=\"#\" style=\"margin-left: 25px;\" data-idtr=\"";
+                // line 195
+                echo twig_escape_filter($this->env, ("tr_numero_" . $context["i"]), "html", null, true);
+                echo "\" class=\"on-default edit-row\"><i class=\"fa fa-pencil\"></i></a>
+                                    <a href=\"#\" style=\"margin-left: 25px; color: red;\"data-idtr=\"";
+                // line 196
+                echo twig_escape_filter($this->env, ("tr_numero_" . $context["i"]), "html", null, true);
+                echo "\" class=\"on-default remove-row\"><i class=\"fa fa-trash-o\"></i></a>
                                 </td>
                             </tr>
+                        ";
+            }
+            $_parent = $context['_parent'];
+            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['i'], $context['_parent'], $context['loop']);
+            $context = array_intersect_key($context, $_parent) + $_parent;
+            // line 200
+            echo "
                         </tbody>
                     </table>
 
@@ -445,9 +499,9 @@ class __TwigTemplate_602d0beac7a133a59466a5a30a2f6a7576c7ed0ab80ee5ea7c0a1c8ec5f
 
 
         ";
-        } elseif ((        // line 207
+        } elseif ((        // line 210
 ($context["action"] ?? $this->getContext($context, "action")) == "type_de_bien")) {
-            // line 208
+            // line 211
             echo "
         <!-- start table for type de bien -->
         <div class=\"col-md-12\">
@@ -514,17 +568,17 @@ class __TwigTemplate_602d0beac7a133a59466a5a30a2f6a7576c7ed0ab80ee5ea7c0a1c8ec5f
         <!-- End table for type de bien -->
         ";
         }
-        // line 273
+        // line 276
         echo "
     </div>
     <!-- End Row -->
 
 ";
         
-        $__internal_4560a9225fa3cbb46a5d5f91364c7e43ad8af114243ac959670c0187b0726a43->leave($__internal_4560a9225fa3cbb46a5d5f91364c7e43ad8af114243ac959670c0187b0726a43_prof);
+        $__internal_d09bde930af4501dde03b38312cfd5e67eb5dbd8b2b614b1bb751ca09326b6af->leave($__internal_d09bde930af4501dde03b38312cfd5e67eb5dbd8b2b614b1bb751ca09326b6af_prof);
 
         
-        $__internal_22d1702d5199e1e463b90d662a728f89ca785c30377fa37c69a7467e0c28ca6b->leave($__internal_22d1702d5199e1e463b90d662a728f89ca785c30377fa37c69a7467e0c28ca6b_prof);
+        $__internal_4a6edc2c7ce97a759f9b34139f2b64669cc74f64f72d7dfb53e8d81101ac7c3a->leave($__internal_4a6edc2c7ce97a759f9b34139f2b64669cc74f64f72d7dfb53e8d81101ac7c3a_prof);
 
     }
 
@@ -540,7 +594,7 @@ class __TwigTemplate_602d0beac7a133a59466a5a30a2f6a7576c7ed0ab80ee5ea7c0a1c8ec5f
 
     public function getDebugInfo()
     {
-        return array (  518 => 273,  451 => 208,  449 => 207,  381 => 141,  379 => 140,  367 => 130,  357 => 126,  353 => 125,  349 => 124,  345 => 123,  338 => 119,  333 => 118,  329 => 117,  281 => 71,  279 => 70,  274 => 67,  265 => 66,  232 => 43,  227 => 41,  221 => 38,  217 => 37,  213 => 36,  209 => 35,  205 => 34,  201 => 33,  197 => 32,  193 => 31,  189 => 30,  185 => 29,  181 => 28,  177 => 27,  173 => 26,  169 => 25,  166 => 24,  157 => 23,  140 => 16,  136 => 15,  132 => 14,  128 => 13,  124 => 12,  121 => 11,  112 => 10,  100 => 8,  96 => 7,  91 => 6,  82 => 5,  63 => 4,  45 => 3,  11 => 1,);
+        return array (  572 => 276,  505 => 211,  503 => 210,  491 => 200,  481 => 196,  477 => 195,  473 => 194,  469 => 193,  462 => 189,  457 => 188,  453 => 187,  405 => 141,  403 => 140,  391 => 130,  373 => 126,  369 => 125,  365 => 124,  361 => 123,  355 => 120,  351 => 119,  346 => 118,  329 => 117,  281 => 71,  279 => 70,  274 => 67,  265 => 66,  232 => 43,  227 => 41,  221 => 38,  217 => 37,  213 => 36,  209 => 35,  205 => 34,  201 => 33,  197 => 32,  193 => 31,  189 => 30,  185 => 29,  181 => 28,  177 => 27,  173 => 26,  169 => 25,  166 => 24,  157 => 23,  140 => 16,  136 => 15,  132 => 14,  128 => 13,  124 => 12,  121 => 11,  112 => 10,  100 => 8,  96 => 7,  91 => 6,  82 => 5,  63 => 4,  45 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -628,7 +682,7 @@ class __TwigTemplate_602d0beac7a133a59466a5a30a2f6a7576c7ed0ab80ee5ea7c0a1c8ec5f
         <div class=\"col-md-12\">
             <div class=\"panel panel-default\">
                 <div class=\"panel-heading\">
-                    <h3 class=\"panel-title\">Listes des villes</h3>
+                    <h3 class=\"panel-title\">Liste des villes</h3>
                 </div>
                 <div class=\"panel-body\">
                     <div class=\"row\">
@@ -669,16 +723,16 @@ class __TwigTemplate_602d0beac7a133a59466a5a30a2f6a7576c7ed0ab80ee5ea7c0a1c8ec5f
 
 
                         <tbody>
-                        {% for i in [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20] %}
-                            <tr id=\"{{ 'tr_numero_' ~ i }}\">
-                                <td style=\"text-align: center;\">{{i}}</td>
-                                <td class=\"form-edit\">System Architect</td>
+                        {% for ville in villes %}
+                            <tr id=\"{{ 'tr_numero_' ~ ville.idVille }}\">
+                                <td style=\"text-align: center;\">{{ loop.index }}</td>
+                                <td class=\"form-edit\">{{ville.nomVille}}</td>
                                 <td>5</td>
                                 <td class=\"\">
-                                    <a href=\"#\" style=\"margin-left: 25px;\" data-idtr=\"{{'tr_numero_' ~ i}}\" class=\"hidden on-editing save-row\"><i class=\"fa fa-save\"></i></a>
-                                    <a href=\"#\" style=\"margin-left: 25px; color: red;\" data-idtr=\"{{'tr_numero_' ~ i}}\" class=\"hidden on-editing cancel-row\"><i class=\"fa fa-times\"></i></a>
-                                    <a href=\"#\" style=\"margin-left: 25px;\" data-idtr=\"{{'tr_numero_' ~ i}}\" class=\"on-default edit-row\"><i class=\"fa fa-pencil\"></i></a>
-                                    <a href=\"#\" style=\"margin-left: 25px; color: red;\"data-idtr=\"{{'tr_numero_' ~ i}}\" class=\"on-default remove-row\"><i class=\"fa fa-trash-o\"></i></a>
+                                    <a href=\"#\" style=\"margin-left: 25px;\" data-idtr=\"{{'tr_numero_' ~ ville.idVille}}\" class=\"hidden on-editing save-row\"><i class=\"fa fa-save\"></i></a>
+                                    <a href=\"#\" style=\"margin-left: 25px; color: red;\" data-idtr=\"{{'tr_numero_' ~ ville.idVille}}\" class=\"hidden on-editing cancel-row\"><i class=\"fa fa-times\"></i></a>
+                                    <a href=\"#\" style=\"margin-left: 25px;\" data-idtr=\"{{'tr_numero_' ~ ville.idVille}}\" class=\"on-default edit-row\"><i class=\"fa fa-pencil\"></i></a>
+                                    <a href=\"#\" style=\"margin-left: 25px; color: red;\"data-idtr=\"{{'tr_numero_' ~ ville.idVille}}\" class=\"on-default remove-row\"><i class=\"fa fa-trash-o\"></i></a>
                                 </td>
                             </tr>
                         {% endfor %}
@@ -698,7 +752,7 @@ class __TwigTemplate_602d0beac7a133a59466a5a30a2f6a7576c7ed0ab80ee5ea7c0a1c8ec5f
         <div class=\"col-md-12\">
             <div class=\"panel panel-default\">
                 <div class=\"panel-heading\">
-                    <h3 class=\"panel-title\">Listes des quartiers</h3>
+                    <h3 class=\"panel-title\">Liste des quartiers</h3>
                 </div>
                 <div class=\"panel-body\">
                     <div class=\"row\">
@@ -716,20 +770,16 @@ class __TwigTemplate_602d0beac7a133a59466a5a30a2f6a7576c7ed0ab80ee5ea7c0a1c8ec5f
                                 <th style=\"width: 200px;\">Nombre de bien</th>
                                 <th style=\"width: 100px;\">Action</th>
                             </tr>
-                        </thead>
-
-
-                        <tbody>
                             <tr id=\"formAjout\" class=\"hidden\">
                                 <form method=\"post\" action=\"#\">
                                     <td>
                                         &nbsp;
                                     </td>
                                     <td>
-                                        <input style=\"width: 100%;\"type=\"text\" name=\"\" id=\"\" placeholder=\"\" />
+                                        <input style=\"width: 100%;\" type=\"text\" name=\"for-saving\" id=\"for-saving\" data-champs=\"nomville\" placeholder=\"nom du ville\" />
                                     </td>
                                     <td>
-                                        &nbsp;<input type=\"submit\" class=\"btn btn-primary hidden\" name=\"enregistrer\" id=\"enregistrer\" value=\"enregistrer\">
+                                        &nbsp;
                                     </td>
                                     <td class=\"\">
                                         <a href=\"#\" style=\"margin-left: 25px;\" class=\"on-editing save-row\"><i class=\"fa fa-save\"></i></a>
@@ -739,17 +789,24 @@ class __TwigTemplate_602d0beac7a133a59466a5a30a2f6a7576c7ed0ab80ee5ea7c0a1c8ec5f
                                     </td>
                                 </form>
                             </tr>
-                            <tr>
-                                <td style=\"text-align: center;\">1</td>
-                                <td>System Architect</td>
+                        </thead>
+
+
+                        <tbody>
+                        {% for i in [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20] %}
+                            <tr id=\"{{ 'tr_numero_' ~ i }}\">
+                                <td style=\"text-align: center;\">{{i}}</td>
+                                <td class=\"form-edit\">System Architect</td>
                                 <td>5</td>
                                 <td class=\"\">
-                                    <a href=\"#\" style=\"margin-left: 25px;\" class=\"hidden on-editing save-row\"><i class=\"fa fa-save\"></i></a>
-                                    <a href=\"#\" style=\"margin-left: 25px; color: red;\" class=\"hidden on-editing cancel-row\"><i class=\"fa fa-times\"></i></a>
-                                    <a href=\"#\" style=\"margin-left: 25px;\" class=\"on-default edit-row\"><i class=\"fa fa-pencil\"></i></a>
-                                    <a href=\"#\" style=\"margin-left: 25px; color: red;\" class=\"on-default remove-row\"><i class=\"fa fa-trash-o\"></i></a>
+                                    <a href=\"#\" style=\"margin-left: 25px;\" data-idtr=\"{{'tr_numero_' ~ i}}\" class=\"hidden on-editing save-row\"><i class=\"fa fa-save\"></i></a>
+                                    <a href=\"#\" style=\"margin-left: 25px; color: red;\" data-idtr=\"{{'tr_numero_' ~ i}}\" class=\"hidden on-editing cancel-row\"><i class=\"fa fa-times\"></i></a>
+                                    <a href=\"#\" style=\"margin-left: 25px;\" data-idtr=\"{{'tr_numero_' ~ i}}\" class=\"on-default edit-row\"><i class=\"fa fa-pencil\"></i></a>
+                                    <a href=\"#\" style=\"margin-left: 25px; color: red;\"data-idtr=\"{{'tr_numero_' ~ i}}\" class=\"on-default remove-row\"><i class=\"fa fa-trash-o\"></i></a>
                                 </td>
                             </tr>
+                        {% endfor %}
+
                         </tbody>
                     </table>
 
