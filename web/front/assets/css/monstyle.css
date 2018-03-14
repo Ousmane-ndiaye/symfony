@@ -1,0 +1,146 @@
+.filter-option {
+    color: gray;
+    font-weight: bold;
+}
+
+.bs-searchbox input {
+    color: black;
+    font-weight: bold;
+}
+
+#prix_choisi {
+    border: 1px solid rgb(189, 183, 183);
+    font-size: 15px;
+}
+
+.changements {
+    background: rgba(48, 47, 47, 0.7);
+}
+
+.changements label,
+.numero {
+    color: white;
+    font-weight: bold;
+}
+
+.notre_slogan {
+    font-weight: bold;
+}
+
+.notre_devise {
+    font-weight: bold;
+    font-size: 18px;
+    color: #FDC600;
+}
+
+.button_reserver {
+    width: 500px;
+    margin: 30px 60px;
+    font-size: 25px;
+    color: #FFF;
+    background-color: #FDC600;
+    border-color: #FDC600;
+    border-radius: 1px;
+    padding: 5px 10px;
+    font-weight: 600;
+}
+
+.button_reserver:hover,
+.button_reserver:focus,
+.button_reserver:active,
+.button_reserver.active,
+.button_reserver:active:focus {
+    color: #FDC600;
+    background-color: #8b8e91;
+    border-color: #898e92;
+}
+
+@media (max-width: 480px) {
+    .button_reserver {
+        text-align: auto;
+        width: 300px;
+        font-size: 16px;
+        color: #FFF;
+        background-color: #FDC600;
+        border-color: #FDC600;
+        border-radius: 1px;
+        padding: 1px 2px;
+        font-weight: 300;
+    }
+    .button_reserver:hover,
+    .button_reserver:focus,
+    .button_reserver:active,
+    .button_reserver.active,
+    .button_reserver:active:focus {
+        color: #FDC600;
+        background-color: #8b8e91;
+        border-color: #898e92;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .button_reserver {
+        width: 500px;
+        font-size: 20px;
+        color: #FFF;
+        background-color: #FDC600;
+        border-color: #FDC600;
+        border-radius: 1px;
+        padding: 5px 10px;
+        font-weight: 600;
+    }
+    .button_reserver:hover,
+    .button_reserver:focus,
+    .button_reserver:active,
+    .button_reserver.active,
+    .button_reserver:active:focus {
+        color: #FDC600;
+        background-color: #8b8e91;
+        border-color: #898e92;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .button_reserver {
+        width: 700px;
+        font-size: 20px;
+        color: #FFF;
+        background-color: #FDC600;
+        border-color: #FDC600;
+        border-radius: 1px;
+        padding: 5px 10px;
+        font-weight: 600;
+    }
+    .button_reserver:hover,
+    .button_reserver:focus,
+    .button_reserver:active,
+    .button_reserver.active,
+    .button_reserver:active:focus {
+        color: #FDC600;
+        background-color: #8b8e91;
+        border-color: #898e92;
+    }
+}
+
+@media (min-width: 969px) and (max-width: 1169px) {
+    .button_reserver {
+        width: 500px;
+        margin: 30px 60px;
+        font-size: 25px;
+        color: #FFF;
+        background-color: #FDC600;
+        border-color: #FDC600;
+        border-radius: 1px;
+        padding: 5px 10px;
+        font-weight: 600;
+    }
+    .button_reserver:hover,
+    .button_reserver:focus,
+    .button_reserver:active,
+    .button_reserver.active,
+    .button_reserver:active:focus {
+        color: #FDC600;
+        background-color: #8b8e91;
+        border-color: #898e92;
+    }
+}

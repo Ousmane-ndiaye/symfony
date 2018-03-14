@@ -1,4 +1,34 @@
 $(document).ready(function() {
+
+    function clickSurEdit() {
+        $("a.edit-row").each(function() {
+            $(this).on("click", function() {
+                $("#" + $(this).data("idtr") + " td.form-edit").attr('id', 'form-ici');
+                let valueTd = $("#form-ici").text();
+                let l_Id = $("#form-ici").data("id");
+                $("#form-ici").text("");
+                $("#" + $(this).data("idtr") + " td.form-edit").append('<form method="post" action="#"> <input style="width: 100%;" type="text" name="for-editing" id="for-editing" data-exval="' + valueTd + '" data-champs="nomville" value="' + valueTd + '" /></form>');
+                $("#" + $(this).data("idtr") + " td.form-edit").removeAttr('id');
+                $("#" + $(this).data("idtr") + " td a.on-editing").each(function() {
+                    $(this).removeClass("hidden");
+                });
+                $("#" + $(this).data("idtr") + " td a.on-default").each(function() {
+                    $(this).addClass("hidden");
+                });
+                return false;
+            });
+        });
+    }
+
+    function clickSurRemove() {
+        $("a.remove-row").each(function() {
+            $(this).on("click", function() {
+                $("#" + $(this).data("idtr")).remove();
+                return false;
+            });
+        });
+    }
+
     function clickSurSave() {
         $("a.save-row").each(function() {
             $(this).on("click", function() {
@@ -47,35 +77,6 @@ $(document).ready(function() {
         });
     }
 
-    function clickSurEdit() {
-        $("a.edit-row").each(function() {
-            $(this).on("click", function() {
-                $("#" + $(this).data("idtr") + " td.form-edit").attr('id', 'form-ici');
-                let valueTd = $("#form-ici").text();
-                let l_Id = $("#form-ici").data("id");
-                $("#form-ici").text("");
-                $("#" + $(this).data("idtr") + " td.form-edit").append('<form method="post" action="#"> <input style="width: 100%;" type="text" name="for-editing" id="for-editing" data-exval="' + valueTd + '" data-champs="nomville" value="' + valueTd + '" /></form>');
-                $("#" + $(this).data("idtr") + " td.form-edit").removeAttr('id');
-                $("#" + $(this).data("idtr") + " td a.on-editing").each(function() {
-                    $(this).removeClass("hidden");
-                });
-                $("#" + $(this).data("idtr") + " td a.on-default").each(function() {
-                    $(this).addClass("hidden");
-                });
-                return false;
-            });
-        });
-    }
-
-    function clickSurRemove() {
-        $("a.remove-row").each(function() {
-            $(this).on("click", function() {
-                $("#" + $(this).data("idtr")).remove();
-                return false;
-            });
-        });
-    }
-
 
     function gererLesInputs(leInput, l_Id) {
         let chemin = "";
@@ -90,6 +91,25 @@ $(document).ready(function() {
                     param += "&idVille=" + l_Id + "&action=edit_ville";
                 }
                 break;
+            case "nomquartier":
+                chemin = "quartier";
+                param = "nomQuartier=" + leInput.val();
+                if (l_Id == null) {
+                    param += "&action=add_quartier";
+                } else {
+                    param += "&idQuartier=" + l_Id + "&action=edit_quartier";
+                }
+                break;
+            case "nomtypebien":
+                chemin = "type_de_bien";
+                param = "nomTypeBien=" + leInput.val();
+                if (l_Id == null) {
+                    param += "&action=add_type_bien";
+                } else {
+                    param += "&idTypeBien=" + l_Id + "&action=edit_type_bien";
+                }
+                break;
+
         }
 
         $.ajax({
@@ -100,25 +120,7 @@ $(document).ready(function() {
             success: function(reponse) {
                 if (reponse == "success") {
                     $("#charge_page").load("bien/" + chemin, function() {
-                        $(".sous-liens-bien").each(function() {
-                            $(this).on("click", function() {
-                                $("#charge_page").load("bien/" + $(this).attr("href").replace("/soultana.sn/web/app_dev.php/soultana/admin/bien/", ""), function() {
-
-                                    $("#button-ajouter").on("click", function() {
-                                        $("#formAjout").removeClass("hidden");
-                                        $(this).addClass("disabled");
-                                        clickSurSave();
-                                        clickSurCancel();
-                                    });
-
-                                    clickSurEdit();
-                                    clickSurRemove();
-                                    clickSurSave();
-                                    clickSurCancel();
-                                });
-                                return false;
-                            })
-                        });
+                        gererBien();
                     });
                 } else if (reponse == "exist") {
                     leInput.addClass("border-red");

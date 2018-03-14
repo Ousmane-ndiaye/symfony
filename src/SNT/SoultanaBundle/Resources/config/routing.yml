@@ -11,3 +11,8 @@ soultana_reservation:
 soultana_admin:
     resource: "@SoultanaBundle/Resources/config/routing/admin.yml"
     prefix:   /admin
+
+
+soultana_proprietaire:
+    resource: "@SoultanaBundle/Resources/config/routing/proprietaire.yml"
+    prefix:   /proprietaire

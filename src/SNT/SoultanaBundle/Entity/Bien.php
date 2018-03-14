@@ -29,6 +29,13 @@ class Bien
     private $nomBien;
 
     /**
+     * @var string
+     *
+     * @ORM\Column(name="adresse", type="string", length=50)
+     */
+    private $adresse;
+
+    /**
      * @var int
      *
      * @ORM\Column(name="prixLocation", type="integer")
@@ -113,6 +120,27 @@ class Bien
     private $disponibilite;
 
     /**
+     * @var string
+     *
+     * @ORM\Column(name="negociation", type="string", length=3)
+     */
+    private $negociation;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="dateDeSoumission", type="datetime", nullable=false)
+     */
+    private $dateDeSoumission;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="dateArchive", type="datetime", nullable=true)
+     */
+    private $dateArchive;
+
+    /**
      * @ORM\ManyToOne(targetEntity="SNT\SoultanaBundle\Entity\Proprietaire")
      * @ORM\JoinColumn(name="idProprietaire", referencedColumnName="idProprietaire", nullable=false)
      */
@@ -135,6 +163,7 @@ class Bien
      * @ORM\JoinColumn(name="idQuartier", referencedColumnName="idQuartier")
      */
     private $idQuartier;
+
 
     /**
      * Get idBien.
@@ -552,5 +581,101 @@ class Bien
     public function getIdQuartier()
     {
         return $this->idQuartier;
+    }
+
+    /**
+     * Set adresse
+     *
+     * @param string $adresse
+     *
+     * @return Bien
+     */
+    public function setAdresse($adresse)
+    {
+        $this->adresse = $adresse;
+
+        return $this;
+    }
+
+    /**
+     * Get adresse
+     *
+     * @return string
+     */
+    public function getAdresse()
+    {
+        return $this->adresse;
+    }
+
+    /**
+     * Set negociation
+     *
+     * @param string $negociation
+     *
+     * @return Bien
+     */
+    public function setNegociation($negociation)
+    {
+        $this->negociation = $negociation;
+
+        return $this;
+    }
+
+    /**
+     * Get negociation
+     *
+     * @return string
+     */
+    public function getNegociation()
+    {
+        return $this->negociation;
+    }
+
+    /**
+     * Set dateDeSoumission
+     *
+     * @param \DateTime $dateDeSoumission
+     *
+     * @return Bien
+     */
+    public function setDateDeSoumission($dateDeSoumission)
+    {
+        $this->dateDeSoumission = $dateDeSoumission;
+
+        return $this;
+    }
+
+    /**
+     * Get dateDeSoumission
+     *
+     * @return \DateTime
+     */
+    public function getDateDeSoumission()
+    {
+        return $this->dateDeSoumission;
+    }
+
+    /**
+     * Set dateArchive
+     *
+     * @param \DateTime $dateArchive
+     *
+     * @return Bien
+     */
+    public function setDateArchive($dateArchive)
+    {
+        $this->dateArchive = $dateArchive;
+
+        return $this;
+    }
+
+    /**
+     * Get dateArchive
+     *
+     * @return \DateTime
+     */
+    public function getDateArchive()
+    {
+        return $this->dateArchive;
     }
 }

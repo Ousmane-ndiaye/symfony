@@ -84,6 +84,7 @@
   'DoctrineBundle:Collector:db.html.twig' => __DIR__.'/../../../vendor/doctrine/doctrine-bundle/Resources/views/Collector/db.html.twig',
   'SoultanaBundle:Admin:bien.html.twig' => __DIR__.'/../../../src/SNT/SoultanaBundle/Resources/views/Admin/bien.html.twig',
   'SoultanaBundle:Admin:index.html.twig' => __DIR__.'/../../../src/SNT/SoultanaBundle/Resources/views/Admin/index.html.twig',
+  'SoultanaBundle:Admin:login.html.twig' => __DIR__.'/../../../src/SNT/SoultanaBundle/Resources/views/Admin/login.html.twig',
   'SoultanaBundle:Admin:accueil.html.twig' => __DIR__.'/../../../src/SNT/SoultanaBundle/Resources/views/Admin/accueil.html.twig',
   'SoultanaBundle:Reservation:index.html.twig' => __DIR__.'/../../../src/SNT/SoultanaBundle/Resources/views/Reservation/index.html.twig',
   'DebugBundle:Profiler:dump.html.twig' => __DIR__.'/../../../vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/views/Profiler/dump.html.twig',

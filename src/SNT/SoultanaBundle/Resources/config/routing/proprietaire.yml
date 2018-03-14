@@ -1,0 +1,8 @@
+proprietaire_index:
+  path:     /
+  defaults: { _controller: SoultanaBundle:Proprietaire:index }
+
+
+proprietaire_soumettre_bien:
+  path:     /soumettre/bien
+  defaults: { _controller: SoultanaBundle:Proprietaire:soumettreBien }

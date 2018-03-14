@@ -171,6 +171,23 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
             }
 
+            elseif (0 === strpos($pathinfo, '/soultana/proprietaire')) {
+                // proprietaire_index
+                if ('/soultana/proprietaire' === $trimmedPathinfo) {
+                    if (substr($pathinfo, -1) !== '/') {
+                        return $this->redirect($pathinfo.'/', 'proprietaire_index');
+                    }
+
+                    return array (  '_controller' => 'SNT\\SoultanaBundle\\Controller\\ProprietaireController::indexAction',  '_route' => 'proprietaire_index',);
+                }
+
+                // proprietaire_soumettre_bien
+                if ('/soultana/proprietaire/soumettre/bien' === $pathinfo) {
+                    return array (  '_controller' => 'SNT\\SoultanaBundle\\Controller\\ProprietaireController::soumettreBienAction',  '_route' => 'proprietaire_soumettre_bien',);
+                }
+
+            }
+
         }
 
         throw 0 < count($allow) ? new MethodNotAllowedException(array_unique($allow)) : new ResourceNotFoundException();

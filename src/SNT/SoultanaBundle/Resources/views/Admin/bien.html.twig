@@ -65,10 +65,7 @@
 {% endblock %}
 {% block contenus %}
     <div class="row">
-
-
         {% if action == 'ville' %}
-
         <!-- start table for ville -->
         <div class="col-md-12">
             <div class="panel panel-default">
@@ -167,10 +164,19 @@
                                         &nbsp;
                                     </td>
                                     <td>
-                                        <input style="width: 100%;" type="text" name="for-saving" id="for-saving" data-champs="nomville" placeholder="nom du ville" />
+                                        <input class="form-control" style="width: 100%;" type="text" name="for-saving" id="for-saving" data-champs="nomquartier" placeholder="nom du quartier" />
                                     </td>
                                     <td>
-                                        &nbsp;
+                                        <select class="form-control" style="width: 100%;" name="" id="">
+                                            {% for ville in villes %}
+                                                <option value="{{ville.idVille}}">{{ville.nomVille}}</option>
+                                            {% endfor %}
+                                            <option id="ajoutVille">
+                                                <form method="post" action="#">
+                                                    <input class="form-control" style="width: 100%;" type="text" name="for-saving" id="for-saving" data-champs="nomquartier" placeholder="nom du quartier" />
+                                                </form>
+                                            </option>
+                                        </select>
                                     </td>
                                     <td class="">
                                         <a href="#" style="margin-left: 25px;" class="on-editing save-row"><i class="fa fa-save"></i></a>
@@ -184,16 +190,16 @@
 
 
                         <tbody>
-                        {% for i in [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20] %}
-                            <tr id="{{ 'tr_numero_' ~ i }}">
-                                <td style="text-align: center;">{{i}}</td>
-                                <td class="form-edit">System Architect</td>
-                                <td>5</td>
+                        {% for quartier in quartiers %}
+                            <tr id="{{ 'tr_numero_' ~ quartier.idQuartier }}">
+                                <td style="text-align: center;">{{loop.index}}</td>
+                                <td class="form-edit">{{quartier.nomQuartier}}</td>
+                                <td>{{quartier.idVille}}</td>
                                 <td class="">
-                                    <a href="#" style="margin-left: 25px;" data-idtr="{{'tr_numero_' ~ i}}" class="hidden on-editing save-row"><i class="fa fa-save"></i></a>
-                                    <a href="#" style="margin-left: 25px; color: red;" data-idtr="{{'tr_numero_' ~ i}}" class="hidden on-editing cancel-row"><i class="fa fa-times"></i></a>
-                                    <a href="#" style="margin-left: 25px;" data-idtr="{{'tr_numero_' ~ i}}" class="on-default edit-row"><i class="fa fa-pencil"></i></a>
-                                    <a href="#" style="margin-left: 25px; color: red;"data-idtr="{{'tr_numero_' ~ i}}" class="on-default remove-row"><i class="fa fa-trash-o"></i></a>
+                                    <a href="#" style="margin-left: 25px;" data-idtr="{{'tr_numero_' ~ quartier.idQuartier}}" class="hidden on-editing save-row"><i class="fa fa-save"></i></a>
+                                    <a href="#" style="margin-left: 25px; color: red;" data-idtr="{{'tr_numero_' ~ quartier.idQuartier}}" class="hidden on-editing cancel-row"><i class="fa fa-times"></i></a>
+                                    <a href="#" style="margin-left: 25px;" data-idtr="{{'tr_numero_' ~ quartier.idQuartier}}" class="on-default edit-row"><i class="fa fa-pencil"></i></a>
+                                    <a href="#" style="margin-left: 25px; color: red;"data-idtr="{{'tr_numero_' ~ quartier.idQuartier}}" class="on-default remove-row"><i class="fa fa-trash-o"></i></a>
                                 </td>
                             </tr>
                         {% endfor %}

@@ -15,17 +15,17 @@ class __TwigTemplate_36390cf38f09647904b9de6bfdc8a978d11cf03a8bfe118fbc3a97c447d
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_909aa9c54a164bd76149702e52c28b227e2aff8bed43748f194a3216e81741b4 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_909aa9c54a164bd76149702e52c28b227e2aff8bed43748f194a3216e81741b4->enter($__internal_909aa9c54a164bd76149702e52c28b227e2aff8bed43748f194a3216e81741b4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SoultanaBundle:Admin:accueil.html.twig"));
+        $__internal_a0e610da3b4a755f311c06414c606ca8198d8b3d6490614fb8262a54b1789adb = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_a0e610da3b4a755f311c06414c606ca8198d8b3d6490614fb8262a54b1789adb->enter($__internal_a0e610da3b4a755f311c06414c606ca8198d8b3d6490614fb8262a54b1789adb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SoultanaBundle:Admin:accueil.html.twig"));
 
-        $__internal_81a61cd5b3905f8f545a4503e1e20c9754923330470a1446e3627907a76b8732 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_81a61cd5b3905f8f545a4503e1e20c9754923330470a1446e3627907a76b8732->enter($__internal_81a61cd5b3905f8f545a4503e1e20c9754923330470a1446e3627907a76b8732_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SoultanaBundle:Admin:accueil.html.twig"));
-
-        
-        $__internal_909aa9c54a164bd76149702e52c28b227e2aff8bed43748f194a3216e81741b4->leave($__internal_909aa9c54a164bd76149702e52c28b227e2aff8bed43748f194a3216e81741b4_prof);
+        $__internal_e13d94a013a61cb13255627f8e9ae8c8911ea5361d9c050745c3826c43390288 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_e13d94a013a61cb13255627f8e9ae8c8911ea5361d9c050745c3826c43390288->enter($__internal_e13d94a013a61cb13255627f8e9ae8c8911ea5361d9c050745c3826c43390288_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SoultanaBundle:Admin:accueil.html.twig"));
 
         
-        $__internal_81a61cd5b3905f8f545a4503e1e20c9754923330470a1446e3627907a76b8732->leave($__internal_81a61cd5b3905f8f545a4503e1e20c9754923330470a1446e3627907a76b8732_prof);
+        $__internal_a0e610da3b4a755f311c06414c606ca8198d8b3d6490614fb8262a54b1789adb->leave($__internal_a0e610da3b4a755f311c06414c606ca8198d8b3d6490614fb8262a54b1789adb_prof);
+
+        
+        $__internal_e13d94a013a61cb13255627f8e9ae8c8911ea5361d9c050745c3826c43390288->leave($__internal_e13d94a013a61cb13255627f8e9ae8c8911ea5361d9c050745c3826c43390288_prof);
 
     }
 

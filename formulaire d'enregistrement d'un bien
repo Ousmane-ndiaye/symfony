@@ -1,0 +1,10 @@
+PROCEDURE D'ENREGISTREMENT D'UN BIEN
+    1) Récuperer tout les champs obligatoires
+    2) Vérifier s'il y a des champs complementaire remplis. Si oui on récupere ces champs
+    3) Enregistrer le proprietaire dans la table proprietaire s'il n'existe pas et récuperer son id
+    4) Enregistrer le bien dans la table bien en mettant
+        - la colonne negociation à 0 avec (-1 => archiver, 0 => en cours, +1 => valider)
+        - la colonne disponiblilite à true
+        - la colonne dateDeSoummission à la date d'aujourd'hui
+        - la colonne dateArchive à null
+    5) Enregistrer les images du bien dans la table image avec comme idBien l'id de cette bien.

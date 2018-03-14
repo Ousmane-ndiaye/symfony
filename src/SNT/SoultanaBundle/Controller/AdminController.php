@@ -3,6 +3,7 @@
 namespace SNT\SoultanaBundle\Controller;
 
 use SNT\SoultanaBundle\Entity\Ville;
+use SNT\SoultanaBundle\Entity\Quartier;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -36,20 +37,22 @@ class AdminController extends Controller
     public function bienAction(Request $request, $action)
     {
         $em = $this->getDoctrine()->getManager();
+        $villes = $em->getRepository('SoultanaBundle:Ville')->findAll();
+        $quartiers = $em->getRepository('SoultanaBundle:Quartier')->findAll();
+        $type_de_biens = $em->getRepository('SoultanaBundle:TypeBien')->findAll();
         if ($action == 'ville') {
-            $villes = $em->getRepository('SoultanaBundle:Ville')->findAll();
             return $this->render('SoultanaBundle:Admin:bien.html.twig', array(
                 'action' => $action,
-                'villes' => $villes
+                'villes' => $villes,
+                'quartiers' => $quartiers
             ));
         } elseif ($action == 'quartier') {
-            $quartiers = $em->getRepository('SoultanaBundle:Quartier')->findAll();
             return $this->render('SoultanaBundle:Admin:bien.html.twig', array(
                 'action' => $action,
+                'villes' => $villes,
                 'quartiers' => $quartiers
             ));
         } elseif ($action == 'type_de_bien') {
-            $type_de_biens = $em->getRepository('SoultanaBundle:TypeBien')->findAll();
             return $this->render('SoultanaBundle:Admin:bien.html.twig', array(
                 'action' => $action,
                 'type_de_biens' => $type_de_biens
@@ -81,6 +84,28 @@ class AdminController extends Controller
                         $ville = new Ville();
                         $ville->setNomVille($nomVille);
                         $em->persist($ville);
+                        $em->flush();
+                        return new Response("success");
+                    }
+                    else
+                    {
+                        return new Response("exist");
+                    }
+                break;
+
+                case 'edit_ville':
+                    $reservation = $em->getRepository('SoultanaBundle:reservation')->findReservation($idReservation, $idClient, $idBien);
+
+                    return new Response(json_encode($reservation));
+                break;
+
+                case 'add_quartier':
+                    $verifQuartier = $em->getRepository('SoultanaBundle:Quartier')->findBy(array('nomQuartier'=>$nomQuartier));
+                    if($verifQuartier == null)
+                    {
+                        $quartier = new Quartier();
+                        $quartier->setNomQuartier($nomQuartier);
+                        $em->persist($quartier);
                         $em->flush();
                         return new Response("success");
                     }
